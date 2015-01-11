@@ -1,0 +1,21 @@
+[
+{
+  "modid": "futureaccel",
+  "name": "Future Accel",
+  "description": "No info added",
+  "version": "1.7.10-1.0.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "xetosphere"
+  ],
+  "credits": "Xetosphere",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
