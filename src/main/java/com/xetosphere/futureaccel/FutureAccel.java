@@ -1,6 +1,8 @@
 package com.xetosphere.futureaccel;
 
+import com.xetosphere.futureaccel.init.ModBlocks;
 import com.xetosphere.futureaccel.handler.ConfigurationHandler;
+import com.xetosphere.futureaccel.init.ModItems;
 import com.xetosphere.futureaccel.proxy.IProxy;
 import com.xetosphere.futureaccel.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -22,6 +24,10 @@ public class FutureAccel
     public void preInit(FMLPreInitializationEvent event)
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+
+        ModBlocks.init();
+
+        ModItems.init();
     }
 
     @Mod.EventHandler

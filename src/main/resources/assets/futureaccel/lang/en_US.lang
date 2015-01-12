@@ -1,0 +1,8 @@
+# Creative Tabs
+itemGroup.futureaccel=Future Accel
+
+# Blocks
+tile.futureaccel:testBlock.name=Test Block
+
+# Items
+item.futureaccel:testItem.name=Test Item

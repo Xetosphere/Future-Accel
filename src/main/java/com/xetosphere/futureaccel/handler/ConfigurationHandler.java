@@ -26,8 +26,7 @@ public class ConfigurationHandler
 
     private static void loadConfiguration()
     {
-        // TODO Come back and do these constants in logical locations and names
-        Settings.General.syncThreshold = configuration.getInt(Messages.Configuration.GENERAL_SYNC_THRESHOLD, Configuration.CATEGORY_GENERAL, 5, 0, Short.MAX_VALUE, StatCollector.translateToLocal(Messages.Configuration.GENERAL_SYNC_THRESHOLD_COMMENT), Messages.Configuration.GENERAL_SYNC_THRESHOLD_LABEL);
+        //TODO Add stuff too the configurations
 
         if (configuration.hasChanged())
         {
